@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding-top: 50px;
+  background-color: rgb(243, 227, 243);
+  height: 100vh;
+}
+
+header {
+  padding-top: 30px;
+  text-align: center;
+}
+
+header p {
+  color: hsl(210, 22%, 49%);
+  margin-top: 20px;
+}
+
+.section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 100px 0; 
+}
+
+.image img {
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+aside {
+  width: 550px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.buttons {
+  width: 550px;
+  height: 60px;
+  display: flex;
+}
+
+#history {
+  width: 33%;
+  border: none;
+  padding: 10px 0;
+  border-top-left-radius: 10px;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+#vision {
+  width: 34%;
+  border: none;
+  padding: 10px 0;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+#goals {
+  width: 33%;
+  border: none;
+  padding: 10px 0;
+  border-top-right-radius: 10px;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.content {
+  padding: 30px 40px;
+  height: 100px;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content h5 {
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.content p,
+.content ul li {
+  color: hsl(210, 22%, 49%);
+}
+
+.content-hidden {
+  display: none;
+}
+
+.content-show {
+  display: block;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
